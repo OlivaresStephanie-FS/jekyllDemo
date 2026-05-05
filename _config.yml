@@ -20,20 +20,19 @@
 
 title: SOLINYC
 email: solinyc@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-domain: "OlivaresStephanie-FS.github.io"
-baseurl: "https://OlivaresStephanie-FS.github.io" # the subpath of your site, e.g. /blog
-url: "/jekyllDemo/" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta and in your feed.xml site description.
+domain: "olivaresstephanie-fs.github.io"
+baseurl: "/jekyllDemo"
+url: "https://olivaresstephanie-fs.github.io"
 twitter_username: solinyc
-github_username:  solinyc
+github_username: solinyc
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
